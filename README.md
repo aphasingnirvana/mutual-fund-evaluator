@@ -1,4 +1,4 @@
-# mutual-fund-evaluator
+# Mutual Fund Evaluator & Simulator
 Have always wondered how to evaluate my investment advisor's performance, is he picking the right MFs in the category? Are they even beating the benchmark index? Are they beating their peers (alpha)? If not, do they have lesser volatility (beta)?
 
 Existing platforms all talk in absolute terms and give 1Y, 3Y, and 5Y returns comparison, but what if I wanted to simulate an alternate MF purchase to know how much difference it would have had in my specific context for my purchase window?
