@@ -12,7 +12,7 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 def read_transactions(file_path):
     try:
-        df = pd.read_excel(file_path, skiprows=4)
+        df = pd.read_excel(file_path, skiprows=4) # todo: too specific to my input file type where the data table started from the 5th row, skip_rows needs to be modified
         
         logging.info(f"Columns in the file: {df.columns.tolist()}")
         
